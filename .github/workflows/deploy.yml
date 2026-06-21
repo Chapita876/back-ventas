@@ -23,3 +23,5 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/back-ventas:latest
+
+          ##kandugrvud
