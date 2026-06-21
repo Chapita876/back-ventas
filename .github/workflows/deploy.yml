@@ -20,7 +20,7 @@ jobs:
       - name: Build y Push de la imagen
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./Springboot-API-REST
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/back-ventas:latest
 
