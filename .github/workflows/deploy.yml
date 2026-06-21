@@ -50,3 +50,5 @@ jobs:
         run: |
           kubectl rollout restart deployment/back-ventas
           kubectl rollout status deployment/back-ventas --timeout=120s
+          
+          ##bdcdgdvch
